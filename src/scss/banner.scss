@@ -1,5 +1,33 @@
 
+  @import url('https://fonts.googleapis.com/css?family=Nunito');
+
   .Banner {
-    height: 350px;
+    height: 400px;
     background-image: url("../assets/banner.png");
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
   }
+  
+  .textBannerB {
+    margin-top: 70px;
+    text-align: right;
+    font-family: Nunito;
+    font-weight: 600;
+    color: $primaryDefault;
+  }
+
+  .textBannerY {
+    text-align: right;
+    font-family: Nunito;
+    font-weight: bold;
+    color: $accentDefault;
+  }
+
+  .Banner-btn {
+    bottom: -375px;
+    margin-right: 10px;
+    position: relative;
+  }
+

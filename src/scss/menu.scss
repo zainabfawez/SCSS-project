@@ -1,6 +1,6 @@
 .menuImage {
-    height: 50%;
-    width: 25%;
+    height:50px;
+    width: 50px;
   }
 
 .logoImageMenu {
@@ -45,8 +45,6 @@
 .headerMenu {
     display: none;
     background-color: white;
-    z-index: 100;
-    position: fixed;
     width: 100%;
 }
 
@@ -65,9 +63,11 @@
 
 .textYellow {
     color: $accentDefault;   
+    margin-left: 10px;
 }
 
 .textRoboto {
     font-family: Roboto;
+    margin-left: 10px;
 }
 

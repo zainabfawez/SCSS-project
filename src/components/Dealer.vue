@@ -1,4 +1,5 @@
 <template>
+
 <!-- header -->
  <body>
     <div class="Header">
@@ -23,8 +24,9 @@
       </div>
       <hr class="line">
     </div>
+<!-- End of Header -->
  
-<!-- Menu -->
+<!-- Burger Menu -->
   <div class ="headerMenu" style = "flex-direction: column">
     <div style = "display: flex; justify-content: space-between">
       <div>
@@ -32,7 +34,7 @@
         <img src="../assets/logo.png" class="logoImageMenu">
       </div>
       <div style="display:flex" >
-        <button class="btn btn-lgn text">Login / Sign Up</button>
+        <button class="btn btn-lgn text">LOGIN</button>
         <img class="menuCartImage" src="../assets/Cart.png">
       </div>
     </div>   
@@ -76,18 +78,30 @@
 
     </div>
   </div>
+<!-- End of Burger Menu -->
 
-    <!-- Banner -->
+<!-- Banner -->
     <div class="Banner">
+      <div >
+        <h4 class ="textBannerB" > Here is what you get from </h4>
+        <h2 class ="textBannerY" > BECOMING AN OFFICIAL TOPOTRADE DEALER </h2>
+      </div>
+      <button class = "btn btn-sell Banner-btn text"> BECOME A DEALER NOW </button>
     </div>
+<!-- End of Banner -->
 
-      <!--  Body -->
+<!--  Body -->
     <div class="Body" >
+      <div >
+        
+      </div>
     </div>
-      
-    <!-- Footer -->
+<!-- End of Body -->
+
+<!-- Footer -->
     <div class= "Footer">
     </div>
+<!-- End of Footer -->
 
  
 </body>
@@ -133,7 +147,7 @@
   @import "../scss/menu.scss";
   @import "../scss/banner.scss";
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 770px) {
     .Header {
       display: none;
     }
