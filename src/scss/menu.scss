@@ -1,0 +1,73 @@
+.menuImage {
+    height: 50%;
+    width: 25%;
+  }
+
+.logoImageMenu {
+    width: 35%;
+    height: 40%;
+    margin-left: 30px;
+}
+
+.menuCartImage {
+    margin: 5px;
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+}
+
+.menuCloseImage {
+    margin: 5px;
+    margin-right: 15px;
+    height: 15px;
+    width: 15px;
+}
+
+.textMenu  {
+    font-family: Roboto;
+    font-weight: bold;
+    color: $divider;
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+.searcBarMenu {
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 20px;
+    width:90%;
+    border: none;
+    background: $backgroundLight;
+}
+
+.headerMenu {
+    display: none;
+    background-color: white;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.Menu {
+    height: 100vh;
+    width: 250px;
+    left: -250px;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+
+.MenuFooter {
+    bottom: 10vh;
+}
+
+.textYellow {
+    color: $accentDefault;   
+}
+
+.textRoboto {
+    font-family: Roboto;
+}
+

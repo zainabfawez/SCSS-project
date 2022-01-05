@@ -1,0 +1,83 @@
+@import "./variables.scss";
+
+.flex-container {
+    display: flex; 
+    width: 100%;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.text  {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+    color: $primaryDark;
+}
+
+.btn {
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.line {
+    height:1px;
+    background-color: $divider;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.logoImage {
+    width:12%;
+    height: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .searchBar {
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 1%;
+    border-radius: 20px;
+    width: 60%;
+    border: none;
+    background: $backgroundLight;
+  }
+
+  .btn-lgn {
+    background-color: white;
+    border: solid 1px $primaryLight;
+    color: $primaryDark;
+  }
+
+
+   .btn-sell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $primaryLight;
+    border: none;
+    color: $primaryDark;
+  }
+
+   .btn-flag {
+    background-color: $primaryDark;
+    border: solid 1px $primaryLight;
+    color: white;
+  }
+
+  .Body {
+    display: flex; 
+    height: 60%;    
+    width: 100%;
+  }
+
+  .Footer {
+    display: flex; 
+    height: 15% ;
+    width: 100%;
+  }
+
+  

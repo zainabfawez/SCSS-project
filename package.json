@@ -11,7 +11,9 @@
     "core-js": "^3.6.5",
     "primeicons": "^5.0.0",
     "primevue": "^3.10.0",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue3-burger-menu": "^1.1.1",
+    "vue3-mq": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
