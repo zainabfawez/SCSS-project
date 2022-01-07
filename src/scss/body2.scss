@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import "./variables.scss";
+
+.BodyCenter2 {
+    display: none;
+    flex-direction: column;
+    justify-content: center; 
+    align-content: center;
+    position: relative;
+  }

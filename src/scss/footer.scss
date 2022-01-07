@@ -1,0 +1,61 @@
+@import "./variables.scss";
+
+
+.Footer {
+    display: flex; 
+    flex-direction: row;
+    background-color: $lightBlack;
+    height: 350px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.address {
+    padding: 30px; 
+    height: 250px;  
+    line-height: 10px;
+}
+
+.FooterTextG {
+    color: $lightGray;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.FooterTextY {
+    color: $accentDefault;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.FooterTextW {
+    color: $lightWhite;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.FooterTitle {
+    color: $accentDefault;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.div1 {
+    line-height: 24px;
+}
+  
