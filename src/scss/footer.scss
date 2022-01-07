@@ -1,13 +1,21 @@
 @import "./variables.scss";
 
-
 .Footer {
-    display: flex; 
-    flex-direction: row;
     background-color: $lightBlack;
     height: 350px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Upper {
+    display: flex; 
+    flex-direction: row;
+}
+
+.Lower {
+    padding: 30px; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .address {
@@ -55,7 +63,7 @@
     flex-direction: row;
 }
 
-.div1 {
-    line-height: 24px;
+.Center {
+    align-self: flex-start;
 }
-  
+

@@ -195,40 +195,69 @@
 <!-- End of Body -->\
 
 <!-- Footer -->
-  <footer  class= "Footer">
-   
-    <div class= "address">
-      <img src="../assets/logoFooter.png">
-      <p class="FooterTextG" >12 rue de la République</p>
-      <p class="FooterTextG">75011 Paris, FRANCE</p>
-      <br>
-      <p  class="FooterTextG"> + 33 1 86 65 14 61 </p>
-      <br>
-      <p class="FooterTextY">contact@topotrade.com</p>
-      <br>
-      <img src="../assets/socialLinks.png">
-    </div>
-
-    <div class="info">
-
-      <div class="div1">
-        <h6 class="FooterTitle"> GET TO KNOW US </h6>
-        <p class="FooterTextW">About us</p>
+  <footer class="Footer">
+    <div class="Upper">  
+      <div class= "address">
+        <img class="Center" src="../assets/logoFooter.png">
+        <p class="FooterTextG" >12 rue de la République</p>
+        <p class="FooterTextG">75011 Paris, FRANCE</p>
+        <br>
+        <p  class="FooterTextG"> + 33 1 86 65 14 61 </p>
+        <br>
+        <p class="FooterTextY">contact@topotrade.com</p>
+        <br>
+        <img class="Center2" src="../assets/socialLinks.png">
+       
       </div>
 
-      <div class="div2"></div>
+      <div class="info">
 
-      <div class="div3"></div>
+        <div style= "margin-left: 20px">
+          <h6 class="FooterTitle"> GET TO KNOW US </h6>
+          <p class="FooterTextW">About us</p>
+          <p class="FooterTextW">Blog</p>
+          <p class="FooterTextW">News room</p>
+          <p class="FooterTextW">Career</p>
+        </div>
 
-      <div class="div4"></div>
+        <div style= "margin-left: 20px">
+          <h6 class="FooterTitle"> EARN MONEY </h6>
+          <p class="FooterTextW">Make money with us</p>
+          <p class="FooterTextW">Blog</p>
+          <p class="FooterTextW">Create your listings </p>
+          <p class="FooterTextW">Your Dashboard</p>
+        </div>
+
+        <div style= "margin-left: 20px">
+          <h6 class="FooterTitle"> BUY </h6>
+          <p class="FooterTextW">Search by category</p>
+          <p class="FooterTextW">Search by brand</p>
+          <p class="FooterTextW">Rentals</p>
+          <p class="FooterTextW">Special offers</p>
+        </div>
+
+        <div style= "margin-left: 50px">
+          <h6 class="FooterTitle"> YOUR ACCOUNT </h6>
+          <p class="FooterTextW">Your dashboard</p>
+          <p class="FooterTextW">Order tracking</p>
+          <p class="FooterTextW">Signup/Log in </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class = "Lower">
+      <p class="FooterTextG" style="font-size: 12px; align-self: flex-start;"> © Topotrade.com. All rights reserved.</p>
+      <div style="display: flex; flex-direction: row; justify-content: space-between">
+        <p class="FooterTextG" style="font-size: 12px; margin-right: 5px "> Privacy Policy</p>
+        <p class="FooterTextG" style="font-size: 12px; margin-left: 5px"> Terms of Service</p>
+      </div>
 
     </div>
 
- 
-
-
-
   </footer>
+
+   
 <!-- End of Footer -->
 
 
@@ -288,13 +317,65 @@
     .headerMenu {
       display: flex;
     }
+    .Footer {
+      height: auto;
+    }
+    .Upper {
+      flex-direction: column;
+    }
 
+    .Lower {
+      flex-direction: column;
+    }
+    .info {
+      flex-direction: column;
+    }
+    .FooterTextW {
+      text-align: center;
+    }
+
+    .FooterTextG {
+      text-align: center;
+    }
+
+    .FooterTextY {
+      text-align: center;
+    }
+
+    .Center {
+      align-self: center;
+      margin-left: 40%;
+    }
+
+    .Center2 {
+      align-self: center;
+      margin-left: 25%;
+    } 
+
+  }
+
+  @media only screen and (max-width: 900px )  {
     .BodyCenter {
       display: none;
     }
 
     .BodyCenter2 {
       display: flex;
+    }
+
+  }
+
+  @media only screen and (max-width: 1100px) and (min-width: 769px) {
+
+    .Footer {
+      padding-left: 1px;
+      padding-right: 1px;
+    }
+
+    .address {
+      padding-left: 1px;
+      padding-top: 30px;   
+      line-height: 5px;
     }
 
   }
@@ -312,7 +393,7 @@
       width:100%;
       border: none;
       background: $backgroundLight;
-}
+    }
 
     .BodyContent {
       display: flex;
@@ -338,7 +419,7 @@
       align-content: center;
       position: relative;
       margin: 5px;
-  }
+    }
 
     .Content {
       margin: 50px;
@@ -369,6 +450,11 @@
       position: relative;
       width: 250px;
     }
+
+    .Center2 {
+      align-self: center;
+      margin-left: 15%;
+    } 
     
   } 
 
